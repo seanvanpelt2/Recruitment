@@ -10,9 +10,12 @@
 		57CA15C61A9BADE1009EC3C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CA15C51A9BADE1009EC3C7 /* AppDelegate.swift */; };
 		57CA15C81A9BADE1009EC3C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CA15C71A9BADE1009EC3C7 /* ViewController.swift */; };
 		57CA15CB1A9BADE1009EC3C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CA15C91A9BADE1009EC3C7 /* Main.storyboard */; };
-		57CA15CD1A9BADE1009EC3C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CA15CC1A9BADE1009EC3C7 /* Images.xcassets */; };
 		57CA15D01A9BADE1009EC3C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57CA15CE1A9BADE1009EC3C7 /* LaunchScreen.xib */; };
 		57CA15DC1A9BADE1009EC3C7 /* RecruitmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CA15DB1A9BADE1009EC3C7 /* RecruitmentTests.swift */; };
+		57CA15E61A9D0BFE009EC3C7 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CA15E51A9D0BFE009EC3C7 /* Checkbox.swift */; };
+		57CA15EA1A9E62B4009EC3C7 /* AdminMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CA15E91A9E62B4009EC3C7 /* AdminMenu.swift */; };
+		57CA15EC1A9E8508009EC3C7 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CA15EB1A9E8508009EC3C7 /* Score.swift */; };
+		57CA15F01A9E89F6009EC3C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CA15EF1A9E89F6009EC3C7 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,11 +34,14 @@
 		57CA15C51A9BADE1009EC3C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57CA15C71A9BADE1009EC3C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57CA15CA1A9BADE1009EC3C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		57CA15CC1A9BADE1009EC3C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		57CA15CF1A9BADE1009EC3C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		57CA15D51A9BADE1009EC3C7 /* RecruitmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecruitmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CA15DA1A9BADE1009EC3C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57CA15DB1A9BADE1009EC3C7 /* RecruitmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitmentTests.swift; sourceTree = "<group>"; };
+		57CA15E51A9D0BFE009EC3C7 /* Checkbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		57CA15E91A9E62B4009EC3C7 /* AdminMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdminMenu.swift; path = ../AdminMenu.swift; sourceTree = "<group>"; };
+		57CA15EB1A9E8508009EC3C7 /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		57CA15EF1A9E89F6009EC3C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +83,13 @@
 		57CA15C21A9BADE1009EC3C7 /* Recruitment */ = {
 			isa = PBXGroup;
 			children = (
+				57CA15E91A9E62B4009EC3C7 /* AdminMenu.swift */,
 				57CA15C51A9BADE1009EC3C7 /* AppDelegate.swift */,
 				57CA15C71A9BADE1009EC3C7 /* ViewController.swift */,
 				57CA15C91A9BADE1009EC3C7 /* Main.storyboard */,
-				57CA15CC1A9BADE1009EC3C7 /* Images.xcassets */,
+				57CA15EF1A9E89F6009EC3C7 /* Images.xcassets */,
+				57CA15E51A9D0BFE009EC3C7 /* Checkbox.swift */,
+				57CA15EB1A9E8508009EC3C7 /* Score.swift */,
 				57CA15CE1A9BADE1009EC3C7 /* LaunchScreen.xib */,
 				57CA15C31A9BADE1009EC3C7 /* Supporting Files */,
 			);
@@ -192,9 +201,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57CA15F01A9E89F6009EC3C7 /* Images.xcassets in Resources */,
 				57CA15CB1A9BADE1009EC3C7 /* Main.storyboard in Resources */,
 				57CA15D01A9BADE1009EC3C7 /* LaunchScreen.xib in Resources */,
-				57CA15CD1A9BADE1009EC3C7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +223,9 @@
 			files = (
 				57CA15C81A9BADE1009EC3C7 /* ViewController.swift in Sources */,
 				57CA15C61A9BADE1009EC3C7 /* AppDelegate.swift in Sources */,
+				57CA15E61A9D0BFE009EC3C7 /* Checkbox.swift in Sources */,
+				57CA15EC1A9E8508009EC3C7 /* Score.swift in Sources */,
+				57CA15EA1A9E62B4009EC3C7 /* AdminMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
