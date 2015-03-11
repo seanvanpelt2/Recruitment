@@ -623,7 +623,7 @@
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Z5o-bk-wJr">
                                 <rect key="frame" x="123" y="369" width="523" height="162"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <date key="date" timeIntervalSinceReferenceDate="446413439.251118">
                                     <!--2015-02-23 19:43:59 +0000-->
                                 </date>
