@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		563FD37E1AAA43B1004B6EB7 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 563FD37D1AAA43B1004B6EB7 /* OpenSans-Regular.ttf */; };
+		563FD3811AAA4C83004B6EB7 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 563FD3801AAA4C83004B6EB7 /* OpenSans-Light.ttf */; };
+		563FD3831AAA4C90004B6EB7 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 563FD3821AAA4C90004B6EB7 /* OpenSans-Bold.ttf */; };
+		56BE0FE01AAD2413008B0848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56BE0FDE1AAD2413008B0848 /* Main.storyboard */; };
 		57CA15C61A9BADE1009EC3C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CA15C51A9BADE1009EC3C7 /* AppDelegate.swift */; };
 		57CA15C81A9BADE1009EC3C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CA15C71A9BADE1009EC3C7 /* ViewController.swift */; };
-		57CA15CB1A9BADE1009EC3C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CA15C91A9BADE1009EC3C7 /* Main.storyboard */; };
 		57CA15D01A9BADE1009EC3C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57CA15CE1A9BADE1009EC3C7 /* LaunchScreen.xib */; };
 		57CA15DC1A9BADE1009EC3C7 /* RecruitmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CA15DB1A9BADE1009EC3C7 /* RecruitmentTests.swift */; };
 		57CA15E61A9D0BFE009EC3C7 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CA15E51A9D0BFE009EC3C7 /* Checkbox.swift */; };
@@ -29,11 +32,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		563FD3791AAA3DE8004B6EB7 /* Recruitment-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recruitment-Bridging-Header.h"; sourceTree = "<group>"; };
+		563FD37D1AAA43B1004B6EB7 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "../OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		563FD3801AAA4C83004B6EB7 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		563FD3821AAA4C90004B6EB7 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		56BE0FDF1AAD2413008B0848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57CA15C01A9BADE1009EC3C7 /* Recruitment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recruitment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CA15C41A9BADE1009EC3C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57CA15C51A9BADE1009EC3C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57CA15C71A9BADE1009EC3C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		57CA15CA1A9BADE1009EC3C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57CA15CF1A9BADE1009EC3C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		57CA15D51A9BADE1009EC3C7 /* RecruitmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecruitmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CA15DA1A9BADE1009EC3C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +69,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		563FD37F1AAA44A3004B6EB7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				563FD3821AAA4C90004B6EB7 /* OpenSans-Bold.ttf */,
+				563FD3801AAA4C83004B6EB7 /* OpenSans-Light.ttf */,
+				563FD37D1AAA43B1004B6EB7 /* OpenSans-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		57CA15B71A9BADE1009EC3C7 = {
 			isa = PBXGroup;
 			children = (
@@ -83,15 +100,17 @@
 		57CA15C21A9BADE1009EC3C7 /* Recruitment */ = {
 			isa = PBXGroup;
 			children = (
+				56BE0FDE1AAD2413008B0848 /* Main.storyboard */,
+				563FD37F1AAA44A3004B6EB7 /* Fonts */,
 				57CA15E91A9E62B4009EC3C7 /* AdminMenu.swift */,
 				57CA15C51A9BADE1009EC3C7 /* AppDelegate.swift */,
 				57CA15C71A9BADE1009EC3C7 /* ViewController.swift */,
-				57CA15C91A9BADE1009EC3C7 /* Main.storyboard */,
 				57CA15EF1A9E89F6009EC3C7 /* Images.xcassets */,
 				57CA15E51A9D0BFE009EC3C7 /* Checkbox.swift */,
 				57CA15EB1A9E8508009EC3C7 /* Score.swift */,
 				57CA15CE1A9BADE1009EC3C7 /* LaunchScreen.xib */,
 				57CA15C31A9BADE1009EC3C7 /* Supporting Files */,
+				563FD3791AAA3DE8004B6EB7 /* Recruitment-Bridging-Header.h */,
 			);
 			path = Recruitment;
 			sourceTree = "<group>";
@@ -202,7 +221,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				57CA15F01A9E89F6009EC3C7 /* Images.xcassets in Resources */,
-				57CA15CB1A9BADE1009EC3C7 /* Main.storyboard in Resources */,
+				563FD3831AAA4C90004B6EB7 /* OpenSans-Bold.ttf in Resources */,
+				563FD37E1AAA43B1004B6EB7 /* OpenSans-Regular.ttf in Resources */,
+				56BE0FE01AAD2413008B0848 /* Main.storyboard in Resources */,
+				563FD3811AAA4C83004B6EB7 /* OpenSans-Light.ttf in Resources */,
 				57CA15D01A9BADE1009EC3C7 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,10 +270,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		57CA15C91A9BADE1009EC3C7 /* Main.storyboard */ = {
+		56BE0FDE1AAD2413008B0848 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				57CA15CA1A9BADE1009EC3C7 /* Base */,
+				56BE0FDF1AAD2413008B0848 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -350,9 +372,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Recruitment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Recruitment/Recruitment-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -360,9 +385,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Recruitment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Recruitment/Recruitment-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -419,6 +446,7 @@
 				57CA15E11A9BADE1009EC3C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57CA15E21A9BADE1009EC3C7 /* Build configuration list for PBXNativeTarget "RecruitmentTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +455,7 @@
 				57CA15E41A9BADE1009EC3C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

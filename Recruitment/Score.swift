@@ -1,7 +1,9 @@
 import UIKit
 
+
 //Code for Favorite Button
 class Score: UIButton {
+    
     
     //images
     let checkedImage = UIImage(named: "fav_selected")

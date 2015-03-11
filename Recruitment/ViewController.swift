@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
     //specifying special things for the app
@@ -43,5 +44,8 @@ class ViewController: UIViewController {
         self.performSegueWithIdentifier("To-AdminMenu", sender: self)
         
     }
+    
 }
+
+
 
